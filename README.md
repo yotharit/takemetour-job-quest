@@ -13,9 +13,18 @@ Code must be writted in Javascript language. The code will be tested with Node8,
 > shift([1, 2, 3, 4 ,5], 'right', 3)
 [3, 4, 5, 1, 2]
 ```
+
 Answer:
+
 ```
--- insert your answer here
+function shift(array, direction, number){
+  for(i = 0; i < number; i++){
+      if(direction == 'right') array.unshift(array.pop());
+      if(direction == 'left') array.push(array.shift());
+  }
+  return array;
+}
+
 ```
 2. Download [hero.json](https://github.com/takemetour/job-quest-intern-2018/blob/master/hero.json) and write a code to caculate these values from **hero.json**
 - 2.1 Average **networth** of all heroes
