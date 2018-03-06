@@ -6,7 +6,4 @@ function shift(array, direction, number){
   return array;
 }
 
-var testarray = shift(['john', 'jane', 'sarah', 'alex'], 'left', 2);
-console.log(testarray);
-var testarray2 = shift([1, 2, 3, 4 ,5], 'right', 3);
-console.log(testarray2);
+console.log(shift(['john', 'jane', 'sarah', 'alex'], 'left', 2));
