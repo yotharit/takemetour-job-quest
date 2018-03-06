@@ -24,7 +24,6 @@ function shift(array, direction, number){
   }
   return array;
 }
-
 ```
 2. Download [hero.json](https://github.com/takemetour/job-quest-intern-2018/blob/master/hero.json) and write a code to caculate these values from **hero.json**
 - 2.1 Average **networth** of all heroes
