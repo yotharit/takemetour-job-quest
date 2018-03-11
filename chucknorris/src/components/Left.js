@@ -5,7 +5,7 @@ class Left extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <img src={ CHUCK } alt="" width='auto' height='700'/>
       </div>
     );
