@@ -9,7 +9,7 @@ import Radium, {StyleRoot} from 'radium';
 
 const styles = {
   fadeIn: {
-    animation: 'x 1s',
+    animation: 'x 3s',
     animationName: Radium.keyframes(fadeIn, 'fadeIn')
   }
 }
